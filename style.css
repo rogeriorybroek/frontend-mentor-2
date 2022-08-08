@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+}
+
+.container {
+    margin: 80px auto;
+    width: 600px;
+    height: 450px;
+    display: flex;
+    border-radius: 20%;
+}
+
+.container img {
+    width: 300px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.container .content {
+    padding: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container .content p:first-of-type {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.container .content p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.container .content .price {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container .content .price span{
+    display: block;
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.container .content .price p {
+    display: block;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;   
+    text-decoration: line-through;
+    letter-spacing: normal;
+}
+
+.container .content button {
+    width: 90%;
+    margin-top: 20px;
+    outline: none;
+    border-style: none;
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.container .content button:hover {
+    background-color: hsl(159, 26%, 30%);
+    cursor: pointer;
+}
